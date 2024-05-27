@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  margin-left: 25px;
+  margin-top: 24px;
+  margin-right: 25px;
+  justify-content: space-between;
+  align-items: center;
+  height: 34px;
+}
+
+header h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 1px;
+  color: #161c2d;
+  letter-spacing: -0.13px;
+  line-height: 28.44px;
+}
+
+header nav {
+  display: flex;
+  gap: 40.5px;
+}
+
+header nav a {
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  color: #161c2d;
+  letter-spacing: -0.1px;
+  line-height: 26px;
+}
+
+.cart {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  position: relative;
+}
+
+.cart-logo {
+  background-image: url("https://cdn-icons-png.flaticon.com/256/25/25619.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 19px;
+  width: 20px;
+  margin-top: 11px;
+  display: flex;
+  position: absolute;
+}
+
+.cart-count {
+  height: 20px;
+  width: 20px;
+  left: 10px;
+  display: flex;
+  background-color: #68d585;
+  position: absolute;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1.5px;
+  line-height: 13.8px;
+}
+
+/* footer */
+
+footer nav {
+  height: 475px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 121px;
+  padding-left: 280px;
+  padding-right: 280px;
+}
+
+footer nav .head {
+  font-size: 15px;
+  font-weight: 400;
+  color: #161c2d;
+  opacity: 70%;
+  margin-bottom: 20px;
+  line-height: 26px;
+  letter-spacing: -0.1px;
+}
+
+footer nav ul {
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+  font-weight: 400;
+  color: #161c2d;
+  list-style: none;
+  line-height: 40px;
+  letter-spacing: -0.2px;
+  padding-left: 0;
+}
+
+footer nav .footer-contact {
+  color: #473bf0;
+  font-weight: 700;
+}
+
+footer .contact {
+  height: 58px;
+  width: 1111px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 32px;
+  border-top: 1px solid #e7e9ed;
+}
+
+footer .contact .copyright {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: -0.1px;
+  line-height: 26px;
+  color: #161c2d;
+}
+
+footer .contact .logos {
+  height: 19px;
+  width: 166px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .contact .logos .twitter {
+  background-image: url("./img/logo-twitter.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 19px;
+  width: 19px;
+  border: 0;
+}
+footer .contact .logos .facebook {
+  background-image: url("./img/logo-facebook.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 19px;
+  width: 19px;
+  border: 0;
+}
+footer .contact .logos .instagram {
+  background-image: url("./img/logo-instagram.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 19px;
+  width: 19px;
+  border: 0;
+}
+footer .contact .logos .linkedin {
+  background-image: url("./img/logo-linkedin.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 19px;
+  width: 19px;
+  border: 0;
+}
+
+footer {
+  margin-bottom: 33px;
+}
